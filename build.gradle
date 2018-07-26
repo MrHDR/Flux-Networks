@@ -42,7 +42,7 @@ version = "${minecraft_version}-${mod_version}"
 if (hasProperty('appendBuildNumber')) {
     version = version + "-" + appendBuildNumber.toString()
 } else if(!hasProperty('official_build')){
-    version = version + "-unofficial"
+    version = version + "-9"
 }
 group= "sonar.flux"
 archivesBaseName = "flux"
